@@ -1,9 +1,0 @@
-{
-
-  "theBest": "herman",
-  "allowedOringins": "http://localhost:3000,https://kexpenseclient.vercel.app'",
-  "connectionString_dev_local": "server=localhost;user id=kExpense;persistsecurityinfo=True;database=kExpense; password=kExpense1000",
-  "connectionString_prod": "server=mi3-ts9.a2hosting.com;user id=houseofm_kExpense;persistsecurityinfo=True;database=houseofm_kExpense;password=kExpense1000",
-  "connectionString": "server=mi3-ts9.a2hosting.com;user id=houseofm_kExpenseDev;persistsecurityinfo=True;database=houseofm_kExpense_DEV;password=kExpense1000",
-  "repositoryType": "Mysql"
-}
