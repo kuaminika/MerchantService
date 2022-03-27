@@ -9,7 +9,7 @@ namespace MerchantService
     {
         List<IMerchantModel> GetAll();
         IMerchantModel AddMerchant(IMerchantModel newMerchant);
-        KTransOutcomeInfo UpdateMerchant(MerchantModel victim);
+        KTransOutcomeInfo UpdateMerchant(IMerchantModel victim);
         IMerchantModel GetById(int id);
         KTransOutcomeInfo DeleteMerchant(IMerchantModel victim);
     }

@@ -41,7 +41,7 @@ namespace MerchantService
             return result;
         }
 
-        public KTransOutcomeInfo UpdateMerchant(MerchantModel victim)
+        public KTransOutcomeInfo UpdateMerchant(IMerchantModel victim)
         {
             KTransOutcomeInfo result = new KTransOutcomeInfo();
             result.RecordsAffectedCount = kRepository.UpdateRecord(victim);
