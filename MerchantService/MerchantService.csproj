@@ -12,4 +12,8 @@
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="$(SolutionDir)\nuget.exe push -Source &quot;kuaminika&quot; -ApiKey az  $(ProjectDir)\bin\Debug\MerchantService.*.*.*.nupkg" />
+  </Target>
+
 </Project>
